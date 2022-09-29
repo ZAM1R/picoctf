@@ -1,6 +1,6 @@
 import re
 lines = []
-with open("a.txt") as file_in:
+with open("list.txt") as file_in:
     for line in file_in:
         lines.append(re.sub(r"[\n\t\s]*",'',line))
 
